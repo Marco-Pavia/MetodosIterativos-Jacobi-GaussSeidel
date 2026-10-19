@@ -20,11 +20,11 @@ El proyecto está desarrollado en Java respetando una arquitectura modular de tr
 ## 2. Sistema de Ecuaciones y Datos de Entrada
 
 El sistema de ecuaciones lineales a resolver es:
-$$\begin{cases} 5x + y + z = 7 \\ x + 4y + z = 6 \\ x + 2y + 5z = 8 \end{cases}$$
+ 5x + y + z = 7 \\ x + 4y + z = 6 \\ x + 2y + 5z = 8
 
 ### Valores almacenados en `Defmatriz.java`:
 * **Matriz de Coeficientes ($A$):**
-  $$A = \begin{bmatrix} 5.0 & 1.0 & 1.0 \\ 1.0 & 4.0 & 1.0 \\ 1.0 & 2.0 & 5.0 \end{bmatrix}$$
+  A = 5.0 & 1.0 & 1.0 \\ 1.0 & 4.0 & 1.0 \\ 1.0 & 2.0 & 5.0
 * **Vector de Términos Independientes ($b$):**
   $$b = [7.0, \, 6.0, \, 8.0]^T$$
 * **Vector de Aproximación Inicial ($X^{(0)}$):**
